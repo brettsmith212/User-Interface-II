@@ -172,6 +172,9 @@ nav .menu {
 .menu a:hover {
   color: #848484;
 }
+.menu a span {
+  font-weight: bold;
+}
 
 /* first section styles */
 .container {

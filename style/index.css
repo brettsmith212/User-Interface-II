@@ -232,12 +232,12 @@ nav .menu {
 footer {
   height: 12vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 footer a {
   text-align: center;
-  padding: 1% 2%;
+  padding: 0.5% 1%;
   background-color: #fff;
   border-radius: 10px;
   border: 1px solid #4f4f4f;
@@ -245,4 +245,17 @@ footer a {
 footer a:hover {
   color: #848484;
   border: 1px solid #848484;
+}
+.social-links {
+  margin-left: 2%;
+  margin-right: 5%;
+}
+.social-links a {
+  background-color: #f1f3f5;
+  color: #339af0;
+  border: #339af0;
+}
+.social-links a:hover {
+  color: #74c0fc;
+  border: #74c0fc;
 }

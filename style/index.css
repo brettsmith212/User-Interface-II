@@ -194,3 +194,25 @@ section .container {
   background-color: #fff;
   border-radius: 10px;
 }
+
+/* projects section styles */
+.project-icons {
+  margin: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 30%;
+  height: 40%;
+  text-align: center;
+}
+
+.project img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* footer section styles */

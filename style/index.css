@@ -216,3 +216,16 @@ section .container {
 }
 
 /* footer section styles */
+footer {
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  text-align: center;
+  padding: 2%;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #4f4f4f;
+}

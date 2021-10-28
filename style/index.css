@@ -105,7 +105,7 @@ section {
   margin: 0;
   padding: 0;
   max-width: 100%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 /* general */
@@ -118,10 +118,12 @@ body {
   line-height: 1.5;
   color: #4f4f4f;
   font-family: "Roboto", sans-serif;
-  background-color: #fff;
+  background-color: #f1f3f5;
 }
 h1 {
-  font-size: 6rem;
+  font-size: 9rem;
+  color: #fff;
+  font-family: "Chelsea Market", cursive;
 }
 h2 {
   font-size: 3rem;
@@ -155,7 +157,7 @@ nav .logo {
   font-size: 3rem;
 }
 .logo a:hover {
-  color: #74c0fc;
+  color: #848484;
   transform: scale(1.2);
 }
 nav .menu {
@@ -168,13 +170,12 @@ nav .menu {
   padding: 2% 4%;
 }
 .menu a:hover {
-  background-color: #74c0fc;
-  color: #fff;
+  color: #848484;
 }
 
 /* first section styles */
-section .container {
-  /* height: 60vh; */
+.container {
+  margin-bottom: 5%;
 }
 .display {
   margin: 3% 10%;
@@ -193,6 +194,11 @@ section .container {
   padding: 2%;
   background-color: #fff;
   border-radius: 10px;
+  font-family: "Chelsea Market", cursive;
+  color: #4dabf7;
+}
+.display a:hover {
+  color: #1c7ed6;
 }
 
 /* projects section styles */
@@ -207,12 +213,16 @@ section .container {
   width: 30%;
   height: 40%;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .project img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.project img:hover {
+  transform: scale(1.1);
 }
 
 /* footer section styles */
@@ -224,8 +234,12 @@ footer {
 }
 footer a {
   text-align: center;
-  padding: 2%;
+  padding: 1% 2%;
   background-color: #fff;
   border-radius: 10px;
   border: 1px solid #4f4f4f;
+}
+footer a:hover {
+  color: #848484;
+  border: 1px solid #848484;
 }

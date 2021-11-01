@@ -259,3 +259,13 @@ footer a:hover {
   color: #74c0fc;
   border: #74c0fc;
 }
+
+/* Media Queries */
+
+/* Table View */
+@media (max-width: 800px) {
+}
+
+/* Mobile View */
+@media (max-width: 500px) {
+}

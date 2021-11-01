@@ -262,7 +262,7 @@ footer a:hover {
 
 /* Media Queries */
 
-/* Table View */
+/* Tablet View */
 @media (max-width: 800px) {
   /* header section styling */
   nav {
@@ -287,4 +287,60 @@ footer a:hover {
 
 /* Mobile View */
 @media (max-width: 500px) {
+  /* header section styles */
+  header {
+    height: auto;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav .logo {
+    margin-left: 0;
+  }
+  .logo a {
+    font-size: 4rem;
+  }
+  nav .menu {
+    margin-right: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu a {
+    padding: 1% 2%;
+  }
+
+  /* first section styles */
+  .display h1 {
+    font-size: 5rem;
+  }
+  .display a {
+    font-size: 1.6rem;
+  }
+
+  /* projects section styles */
+  .project-icons {
+    margin: 2% 5%;
+    justify-content: space-around;
+  }
+  .project {
+    width: 40%;
+    margin-bottom: 10%;
+  }
+  .project h2 {
+    font-size: 1.8rem;
+  }
+
+  /* footer section styles */
+  footer {
+    height: auto;
+    flex-direction: column;
+  }
+  footer a {
+    padding: 1% 2%;
+    font-size: 1.6rem;
+  }
+  .social-links {
+    margin: 3% 0;
+  }
 }
